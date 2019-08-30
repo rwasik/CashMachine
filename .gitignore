@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CashMachineApi/obj
+/CashMachineApi.Models/bin/Debug/netcoreapp2.2
+/CashMachineApi.Models/obj
+/CashMachineApi.Services/bin/Debug/netcoreapp2.2
+/CashMachineApi.Services/obj
+/CashMachineApi.Tests/bin/Debug/netcoreapp2.2
+/CashMachineApi.Tests/obj
