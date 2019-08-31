@@ -45,20 +45,7 @@
         {{#if errorMessage}}
             {{errorMessage}}
         {{else}}
-            [
-                {{#times quantityOf100Notes}}
-                    <span>100.00, </span>
-                {{/times}}
-                {{#times quantityOf50Notes}}
-                    <span>50.00, </span>
-                {{/times}}
-                {{#times quantityOf20Notes}}
-                    <span>20.00, </span>
-                {{/times}}
-                {{#times quantityOf10Notes}}
-                    <span>10.00, </span>
-                {{/times}}
-            ]
+            [ {{#notesResult notes}}{{this}}{{/notesResult}} ]
         {{/if}}
     </script>
 
