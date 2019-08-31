@@ -7,11 +7,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\CashMachineApi.Models\CashMachineApi.Models.csproj" />
+    <ProjectReference Include="..\CashMachineApi.Services\CashMachineApi.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -14,7 +14,7 @@ namespace CashMachineApi.Services.DetermineNotesQuantityPipeLinks
             if (quantity == 0)
                 return;
 
-            pipeModel._20NotesQty = quantity;
+            pipeModel.QuantityOf20Notes = quantity;
             pipeModel.Amount -= quantity * NoteValue;
         }
     }

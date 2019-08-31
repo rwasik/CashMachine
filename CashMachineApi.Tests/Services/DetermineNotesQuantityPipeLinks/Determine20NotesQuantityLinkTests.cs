@@ -15,7 +15,7 @@ namespace CashMachineApi.Tests.Services.DetermineNotesQuantityPipeLinks
 
             new Determine20NotesQuantityLink().Execute(pipeModel);
 
-            Assert.AreEqual(0, pipeModel._20NotesQty);
+            Assert.AreEqual(0, pipeModel.QuantityOf20Notes);
             Assert.AreEqual(amount, pipeModel.Amount);
         }
 
@@ -27,7 +27,7 @@ namespace CashMachineApi.Tests.Services.DetermineNotesQuantityPipeLinks
 
             new Determine20NotesQuantityLink().Execute(pipeModel);
 
-            Assert.AreEqual(5, pipeModel._20NotesQty);
+            Assert.AreEqual(5, pipeModel.QuantityOf20Notes);
             Assert.AreEqual(0, pipeModel.Amount);
         }
 
@@ -39,7 +39,7 @@ namespace CashMachineApi.Tests.Services.DetermineNotesQuantityPipeLinks
 
             new Determine20NotesQuantityLink().Execute(pipeModel);
 
-            Assert.AreEqual(5, pipeModel._20NotesQty);
+            Assert.AreEqual(5, pipeModel.QuantityOf20Notes);
             Assert.AreEqual(10, pipeModel.Amount);
         }
     }
