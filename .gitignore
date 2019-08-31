@@ -12,3 +12,6 @@
 /CashMachineApi.Tests/obj
 /CashMachineApi/bin/Debug/netcoreapp2.2
 /CashMachineApi/CashMachineApi.csproj.user
+/CashMachineApp/bin/Debug/netcoreapp2.2
+/CashMachineApp/obj
+/CashMachineApp/wwwroot/lib

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachineApi.Models", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachineApi.Tests", "CashMachineApi.Tests\CashMachineApi.Tests.csproj", "{AA854EB8-24DE-4577-90BF-D9928737A41A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachineApp", "CashMachineApp\CashMachineApp.csproj", "{3C44F9CA-BB01-4C3E-B59E-D4B10117FADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AA854EB8-24DE-4577-90BF-D9928737A41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA854EB8-24DE-4577-90BF-D9928737A41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA854EB8-24DE-4577-90BF-D9928737A41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C44F9CA-BB01-4C3E-B59E-D4B10117FADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C44F9CA-BB01-4C3E-B59E-D4B10117FADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C44F9CA-BB01-4C3E-B59E-D4B10117FADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C44F9CA-BB01-4C3E-B59E-D4B10117FADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

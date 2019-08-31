@@ -21,6 +21,13 @@ namespace CashMachineApi
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            services.AddCors(o => o.AddPolicy("CashMachinePolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             services.ConfigureCashMachineApiServices();
         }
 
@@ -37,6 +44,7 @@ namespace CashMachineApi
                 app.UseHsts();
             }
 
+            app.UseCors("CashMachinePolicy");
             app.UseHttpsRedirection();
             app.UseMvc();
         }
